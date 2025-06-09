@@ -1,0 +1,38 @@
+Print Example 1 - People:
+
+Snord, Cranston
+
+Sharma, Priyanka: 7384737
+
+Hakim, Abdul
+Department: History
+
+Rodrigues, Estevan
+Department: Philosophy
+
+----------------------------------------
+Print Example 2 - Sorted People:
+
+Hakim, Abdul
+Department: History
+
+Rodrigues, Estevan
+Department: Philosophy
+
+Sharma, Priyanka: 7384737
+
+Snord, Cranston
+
+
+========================================
+Task 1 - Add CAS:
+
+Hakim, Abdul
+Department: History
+
+Rodrigues, Estevan
+Department: Philosophy
+
+Sharma, Priyanka: 7384737
+
+Snord, Cranston

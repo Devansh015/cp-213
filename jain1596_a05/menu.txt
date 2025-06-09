@@ -1,0 +1,7 @@
+1.25 hot dog
+2.00 hamburger
+2.75 cheeseburger
+1.75 fries
+3.75 poutine
+10.00 pizza
+1.50 drink

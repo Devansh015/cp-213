@@ -1,0 +1,14 @@
+New Student:
+Name:      Brown, David
+ID:        123456
+ßBirthdate: 1962-10-25
+----------------------------------------
+Test Getters
+----------------------------------------
+Test Setters
+Updated Student:
+Name:      Brown, David
+ID:        123456
+ßBirthdate: 1962-10-25
+----------------------------------------
+Test compareTo

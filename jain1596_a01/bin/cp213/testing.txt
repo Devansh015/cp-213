@@ -1,0 +1,113 @@
+Assignment 1 Methods Tests
+
+Tests are of the form:
+  Test Operation
+  {expected value}: actual value
+
+================================================================================
+Testing isLeapYear
+----------------------------------------
+isLeapYear(1900)
+  {false}: false
+isLeapYear(1996)
+  {true}: true
+isLeapYear(1999)
+  {false}: false
+isLeapYear(2000)
+  {true}: true
+
+================================================================================
+Testing isPalindrome
+----------------------------------------
+isPalindrome("racecar")
+  {true}: true
+isPalindrome("A man, a plan, a canal, Panama!")
+  {true}: true
+isPalindrome("David")
+  {false}: false
+
+================================================================================
+Testing isValid
+----------------------------------------
+isValid("a")
+  {true}: true
+isValid("_a")
+  {true}: true
+isValid("1a")
+  {false}: false
+
+================================================================================
+Testing pigLatin
+----------------------------------------
+pigLatin("David")
+  {"Avidday"}: "Avidday"
+pigLatin("arrow")
+  {"arrowway"}: "arrowway"
+pigLatin("yard")
+  {"ardyay"}: "ardyay"
+
+================================================================================
+Testing closest
+----------------------------------------
+closest(0.0, -5.0, 5.0)
+  {-5.0}: -5.0
+closest(0.0, -10.0, 5.0)
+  {5.0}: 5.0
+
+================================================================================
+Testing sumPartialHarmonic
+----------------------------------------
+sumPartialHarmonic(0)
+  {0.000000}: 0.000000
+sumPartialHarmonic(1)
+  {1.000000}: 1.000000
+sumPartialHarmonic(8)
+  {2.717857}: 2.717857
+
+================================================================================
+Testing allDigits
+----------------------------------------
+allDigits("a")
+  {false}: false
+allDigits("123")
+  {true}: true
+allDigits("12.3")
+  {false}: false
+
+================================================================================
+Testing validSn
+----------------------------------------
+validSn("SN/1234-567")
+  {true}: true
+validSn("SN/1234567")
+  {false}: false
+validSn("SN/123-4567")
+  {false}: false
+
+================================================================================
+Testing isPrime
+----------------------------------------
+isPrime(7)
+  {true}: true
+isPrime(5)
+  {true}: true
+isPrime(9)
+  {false}: false
+
+================================================================================
+Testing shift
+----------------------------------------
+shift("ABC", 0)
+  {"ABC"}: "ABC"
+shift("ABC", 3)
+  {"DEF"}: "DEF"
+shift("ABC", 30)
+  {"EFG"}: "EFG"
+
+================================================================================
+Testing substitute
+----------------------------------------
+substitute("ABC", AVIBROWNZCEFGHJKLMPQSTUXYD)
+  {"AVI"}: "AVI"
+substitute("XYZ", AVIBROWNZCEFGHJKLMPQSTUXYD)
+  {"XYD"}: "XYD"

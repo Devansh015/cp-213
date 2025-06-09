@@ -1,0 +1,29 @@
+Task 1
+Values in first:
+1
+3
+5
+7
+9
+Values in second:
+1
+3
+5
+7
+9
+After modification of first:
+First: [2, 6, 10, 14, 18]
+Second: [2, 6, 10, 14, 18]
+true
+Task 2
+Modified first: [2, 6, 10, 14, 18]
+Second: [2, 6, 10, 14, 18]
+true
+Task 3
+First after enhanced for loop: [1, 3, 5, 7, 9]
+false
+Task 4
+third[0]: [1, 3, 5, 7, 9]
+true
+Task 5
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]

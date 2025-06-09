@@ -1,0 +1,61 @@
+Strings Lab Methods Tests
+
+Tests are of the form:
+  Test Operation
+  {expected value}: actual value
+
+================================================================================
+Testing vowelCount
+----------------------------------------
+vowelCount("aeiouAEIOU")
+  {10}: 10
+vowelCount("")
+  {0}: 0
+vowelCount("BCDfgh")
+  {0}: 0
+vowelCount("This line has some vowels.")
+  {8}: 8
+
+================================================================================
+Testing digitCount
+----------------------------------------
+digitCount("")
+  {0}: 0
+digitCount("1")
+  {1}: 1
+digitCount("Easy as 1, 2, 3.")
+  {3}: 3
+
+================================================================================
+Testing totalDigits
+----------------------------------------
+totalDigits("")
+  {0}: 0
+totalDigits("1")
+  {1}: 1
+totalDigits("Easy as 1, 2, 3.")
+  {6}: 6
+
+================================================================================
+Testing pairs
+----------------------------------------
+pairs("a", "b")
+  {a,b}: a,b
+pairs("b", "a")
+  {a,b}: a,b
+pairs("line", "line")
+  {line}: line
+
+================================================================================
+Testing stringDistance
+----------------------------------------
+stringDistance("a", "a")
+  {0}: 0
+stringDistance("a", "b")
+  {1}: 1
+stringDistance("North", "South")
+  {2}: 2
+stringDistance("short", "longer")
+  {-1}: -1
+================================================================================
+Done

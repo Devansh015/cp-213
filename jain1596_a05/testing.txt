@@ -1,0 +1,56 @@
+Assignment 5 Class Tests
+================================================================================
+Testing MenuItem
+----------------------------------------
+Test double Constructor:
+menuItem = new MenuItem("hot dog", 1.25);
+----------------------------------------
+menuItem.getName():
+  {"hot dog"}: "hot dog"
+----------------------------------------
+menuItem.getPrice():
+  {1.25}: 1.25
+----------------------------------------
+menuItem.toString():
+  {"hot dog      $ 1.25"}: "hot dog      $ 1.25"
+----------------------------------------
+Test BigDecimal Constructor:
+menuItem = new MenuItem("hot dog", 1.25);
+----------------------------------------
+menuItem.getName():
+  {"hot dog"}: "hot dog"
+----------------------------------------
+menuItem.getPrice():
+  {1.25}: 1.25
+----------------------------------------
+menuItem.toString():
+  {"hot dog      $ 1.25"}: "hot dog      $ 1.25"
+
+================================================================================
+Testing Menu
+----------------------------------------
+Menu menu = new Menu(fileScanner);
+----------------------------------------
+menu.size():
+  {7}: 7
+----------------------------------------
+menu.getItem(3):
+  {"fries        $ 1.75"}: "fries        $ 1.75"
+----------------------------------------
+menu.toString():
+ 1) hot dog      $ 1.25
+ 2) hamburger    $ 2.00
+ 3) cheeseburger $ 2.75
+ 4) fries        $ 1.75
+ 5) poutine      $ 3.75
+ 6) pizza        $10.00
+ 7) drink        $ 1.50
+
+----------------------------------------
+List of items:
+[hot dog      $ 1.25, fries        $ 1.75]
+Menu menuFromList = new Menu(items);
+menuFromList.toString():
+ 1) hot dog      $ 1.25
+ 2) fries        $ 1.75
+ 

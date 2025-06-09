@@ -1,0 +1,28 @@
+"""
+-------------------------------------------------------
+testing.txt
+CP213 Documentation Lab Testing
+-------------------------------------------------------
+Author:  Devansh Jain	
+ID:      169061596
+Email:   jain1596@mylaurier.ca
+Version: 2024-09-20
+-------------------------------------------------------
+"""
+---------------------------------------
+Enter a number or 'q' to quit: 1
+Enter a number or 'q' to quit: 2
+Enter a number or 'q' to quit: 3
+Enter a number or 'q' to quit: 4
+Enter a number or 'q' to quit: 5
+Enter a number or 'q' to quit: q
+Total: 15
+----------------------------------------
+Lines: 83
+----------------------------------------
+Tokens: 229
+----------------------------------------
+Words: 6
+----------------------------------------
+Done
+----------------------------------------
