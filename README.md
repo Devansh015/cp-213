@@ -5,6 +5,6 @@
   - jain1596_l01: Labs
 
 ## Requirements
-Java compiler (Eclipse or Vscode reccommended) 
-Standard Java Library 
-Completed using JDK 24
+- Java compiler (Eclipse or Vscode reccommended) 
+- Standard Java Library 
+- Completed using JDK 24
